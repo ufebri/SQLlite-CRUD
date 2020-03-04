@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CRUD SQLite</string>
+    <string name="brand">Brand</string>
+    <string name="product">Product</string>
+    <string name="customer">Customer</string>
+    <string name="pembelian">Pembelian</string>
+    <string name="add_product">Add Product</string>
+    <string name="delete">Delete</string>
+    <string name="add_customer">Add Customer</string>
+
+    <string-array name="gender_arrays">
+        <item>Perempuan</item>
+        <item>Laki-Laki</item>
+    </string-array>
+
+    <string name="gender_prompt">Choose a gender</string>
+    <string name="add_sales">Add Sales</string>
+
+</resources>

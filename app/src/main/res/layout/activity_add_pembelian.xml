@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.pembelian.AddPembelianActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spn_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" />
+
+
+        <Spinner
+            android:id="@+id/spn_customer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" />
+
+
+        <EditText
+            android:id="@+id/tie_sale_qty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="Qty"
+            android:inputType="numberDecimal" />
+
+
+        <Button
+            android:id="@+id/btn_add_sale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Sale" />
+    </LinearLayout>
+</layout>

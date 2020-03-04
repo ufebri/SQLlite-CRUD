@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.customer.AddCustomerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_id_customer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp" />
+
+
+        <EditText
+            android:id="@+id/tie_nama_customer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cust. Name" />
+
+        <Spinner
+            android:id="@+id/spn_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/gender_arrays"
+            android:prompt="@string/gender_prompt" />
+
+
+        <EditText
+            android:id="@+id/tie_adr_customer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cust. Address"
+            android:inputType="textMultiLine" />
+
+
+        <Button
+            android:id="@+id/btn_add_cust"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Add Cust" />
+
+
+    </LinearLayout>
+</layout>

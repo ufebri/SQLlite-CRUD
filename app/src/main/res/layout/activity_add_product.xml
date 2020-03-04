@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.product.AddProductActivity">
+
+    <LinearLayout
+        android:id="@+id/ln_add_product"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_id_products"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp" />
+
+        <EditText
+            android:id="@+id/et_product_names"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="product name" />
+
+
+        <EditText
+            android:id="@+id/et_product_codes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Code" />
+
+
+        <Spinner
+            android:id="@+id/spn_brand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btn_add_products"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Add Product" />
+
+    </LinearLayout>
+</layout>
